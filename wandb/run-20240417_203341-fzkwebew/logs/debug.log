@@ -1,0 +1,57 @@
+2024-04-17 20:33:41,029 INFO    Thread-107:61593 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-17 20:33:41,029 INFO    Thread-107:61593 [wandb_setup.py:_flush():76] Configure stats pid to 61593
+2024-04-17 20:33:41,029 INFO    Thread-107:61593 [wandb_setup.py:_flush():76] Loading settings from /Users/johnny/.config/wandb/settings
+2024-04-17 20:33:41,029 INFO    Thread-107:61593 [wandb_setup.py:_flush():76] Loading settings from /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/settings
+2024-04-17 20:33:41,029 INFO    Thread-107:61593 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'xgboost-diamonds-1', 'entity': 'medtest', 'root_dir': '/Users/johnny/Documents/GitHub/MSAI490_HW4', 'run_id': 'fzkwebew', 'sweep_param_path': '/Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/sweep-ooauan2c/config-fzkwebew.yaml', 'sweep_id': 'ooauan2c'}
+2024-04-17 20:33:41,029 INFO    Thread-107:61593 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-17 20:33:41,029 INFO    Thread-107:61593 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-17 20:33:41,029 INFO    Thread-107:61593 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-17 20:33:41,030 INFO    Thread-107:61593 [wandb_init.py:_log_setup():521] Logging user logs to /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203341-fzkwebew/logs/debug.log
+2024-04-17 20:33:41,030 INFO    Thread-107:61593 [wandb_init.py:_log_setup():522] Logging internal logs to /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203341-fzkwebew/logs/debug-internal.log
+2024-04-17 20:33:41,030 INFO    Thread-107:61593 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x31f1dbe50>
+2024-04-17 20:33:41,030 INFO    Thread-107:61593 [wandb_init.py:init():561] calling init triggers
+2024-04-17 20:33:41,030 INFO    Thread-107:61593 [wandb_init.py:init():568] wandb.init called with sweep_config: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+config: {}
+2024-04-17 20:33:41,030 INFO    Thread-107:61593 [wandb_init.py:init():611] starting backend
+2024-04-17 20:33:41,030 INFO    Thread-107:61593 [wandb_init.py:init():615] setting up manager
+2024-04-17 20:33:41,034 INFO    Thread-107:61593 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-17 20:33:41,034 INFO    Thread-107:61593 [wandb_init.py:init():623] backend started and connected
+2024-04-17 20:33:41,040 INFO    Thread-107:61593 [wandb_run.py:_config_callback():1347] config_cb None None {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300}
+2024-04-17 20:33:41,042 INFO    Thread-107:61593 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-17 20:33:41,042 INFO    Thread-107:61593 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-17 20:33:41,042 INFO    Thread-107:61593 [wandb_init.py:init():715] updated telemetry
+2024-04-17 20:33:41,064 INFO    Thread-107:61593 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-17 20:33:41,276 INFO    Thread-107:61593 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-17 20:33:41,550 INFO    Thread-107:61593 [wandb_run.py:_on_init():2366] got version response 
+2024-04-17 20:33:41,550 INFO    Thread-107:61593 [wandb_init.py:init():799] starting run threads in backend
+2024-04-17 20:33:41,667 INFO    Thread-107:61593 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-17 20:33:41,667 INFO    Thread-107:61593 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-17 20:33:41,668 INFO    Thread-107:61593 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-17 20:33:41,668 INFO    Thread-107:61593 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-17 20:33:41,668 INFO    Thread-107:61593 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-17 20:33:42,310 INFO    Thread-107:61593 [wandb_run.py:_finish():2064] finishing run medtest/xgboost-diamonds-1/fzkwebew
+2024-04-17 20:33:42,311 ERROR   Thread-107:61593 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-04-17 20:33:42,311 INFO    Thread-107:61593 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-04-17 20:33:42,311 INFO    Thread-107:61593 [wandb_init.py:_jupyter_teardown():449] cleaning up jupyter logic
+2024-04-17 20:33:42,311 INFO    Thread-107:61593 [wandb_run.py:_atexit_cleanup():2304] got exitcode: 0
+2024-04-17 20:33:42,311 INFO    Thread-107:61593 [wandb_run.py:_restore():2287] restore
+2024-04-17 20:33:42,311 INFO    Thread-107:61593 [wandb_run.py:_restore():2293] restore done
+2024-04-17 20:33:44,225 INFO    Thread-107:61593 [wandb_run.py:_restore():2287] restore
+2024-04-17 20:33:44,225 INFO    Thread-107:61593 [wandb_run.py:_restore():2293] restore done
+2024-04-17 20:33:45,226 ERROR   Thread-107:61593 [wandb_run.py:_atexit_cleanup():2325] Problem finishing run
+Traceback (most recent call last):
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2313, in _atexit_cleanup
+    self._on_finish()
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 2561, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+Exception

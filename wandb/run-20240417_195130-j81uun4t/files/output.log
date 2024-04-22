@@ -1,0 +1,63 @@
+/var/folders/93/4tspbrs900q0m61qlxy3g_9r0000gn/T/ipykernel_54214/1736723096.py:4: UserWarning: wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+  callbacks = [wandb_callback()]
+/var/folders/93/4tspbrs900q0m61qlxy3g_9r0000gn/T/ipykernel_54214/3432642749.py:4: UserWarning: wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+  callbacks = [wandb_callback()]
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/model_selection/_split.py:737: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=3.
+  warnings.warn(
+Fitting 3 folds for each of 12 candidates, totalling 36 fits
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=6, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=6, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=6, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=6, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=3, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=6, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=6, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.1, max_depth=9, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=3, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=3, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=3, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=3, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=3, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=3, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=6, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=6, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=6, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=6, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=6, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=6, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=9, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=9, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=9, n_estimators=100; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=9, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=9, n_estimators=200; total time=   0.0s
+[CV] END ...learning_rate=0.3, max_depth=9, n_estimators=200; total time=   0.0s

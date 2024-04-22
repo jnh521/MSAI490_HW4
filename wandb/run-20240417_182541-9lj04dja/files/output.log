@@ -1,0 +1,702 @@
+[0]	train-rmse:3637.67896	validation-rmse:3632.51725
+[50]	train-rmse:713.24118	validation-rmse:704.00363
+[100]	train-rmse:606.84480	validation-rmse:611.92114
+[150]	train-rmse:577.71841	validation-rmse:591.77358
+[200]	train-rmse:561.66665	validation-rmse:581.54703
+[250]	train-rmse:548.40813	validation-rmse:571.54640
+[300]	train-rmse:537.85025	validation-rmse:564.20854
+[350]	train-rmse:526.57920	validation-rmse:557.23046
+[400]	train-rmse:518.44495	validation-rmse:553.79402
+[450]	train-rmse:512.73588	validation-rmse:551.01404
+[500]	train-rmse:507.60531	validation-rmse:548.11108
+[550]	train-rmse:502.44092	validation-rmse:546.59292
+[600]	train-rmse:498.55193	validation-rmse:545.18373
+[650]	train-rmse:494.28721	validation-rmse:544.32092
+[700]	train-rmse:490.67138	validation-rmse:543.23866
+[750]	train-rmse:486.25664	validation-rmse:541.87014
+[800]	train-rmse:483.17901	validation-rmse:540.79381
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:41] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[850]	train-rmse:480.53296	validation-rmse:540.46785
+[900]	train-rmse:477.85712	validation-rmse:540.02669
+[950]	train-rmse:475.39008	validation-rmse:539.33770
+[999]	train-rmse:472.58639	validation-rmse:540.00445
+[0]	train-rmse:3637.70289	validation-rmse:3632.54159
+[50]	train-rmse:715.14906	validation-rmse:706.93386
+[100]	train-rmse:608.74731	validation-rmse:612.99256
+[150]	train-rmse:578.25435	validation-rmse:591.48742
+[200]	train-rmse:562.92527	validation-rmse:581.40095
+[250]	train-rmse:548.51752	validation-rmse:572.27303
+[300]	train-rmse:536.23319	validation-rmse:565.41564
+[350]	train-rmse:526.80694	validation-rmse:560.28148
+[400]	train-rmse:519.05512	validation-rmse:555.87537
+[450]	train-rmse:513.33673	validation-rmse:552.27665
+[500]	train-rmse:508.06088	validation-rmse:551.10055
+[550]	train-rmse:503.30619	validation-rmse:550.18131
+[600]	train-rmse:498.33863	validation-rmse:548.14706
+[650]	train-rmse:494.97030	validation-rmse:546.21560
+[700]	train-rmse:491.09429	validation-rmse:545.89229
+[750]	train-rmse:487.35217	validation-rmse:544.16920
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:43] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:45] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[800]	train-rmse:484.64428	validation-rmse:543.79120
+[850]	train-rmse:481.85575	validation-rmse:542.79453
+[900]	train-rmse:478.58713	validation-rmse:542.21032
+[950]	train-rmse:475.76203	validation-rmse:541.94284
+[999]	train-rmse:473.45147	validation-rmse:541.10531
+[0]	train-rmse:3637.72694	validation-rmse:3632.56604
+[50]	train-rmse:715.35014	validation-rmse:706.99386
+[100]	train-rmse:604.73038	validation-rmse:608.10120
+[150]	train-rmse:577.35156	validation-rmse:589.44279
+[200]	train-rmse:562.67306	validation-rmse:580.28786
+[250]	train-rmse:548.83378	validation-rmse:571.06689
+[300]	train-rmse:539.11564	validation-rmse:564.17824
+[350]	train-rmse:529.13600	validation-rmse:557.85107
+[400]	train-rmse:522.52756	validation-rmse:553.52066
+[450]	train-rmse:514.89626	validation-rmse:550.89869
+[500]	train-rmse:510.73094	validation-rmse:548.64727
+[550]	train-rmse:505.61005	validation-rmse:546.35778
+[600]	train-rmse:501.25971	validation-rmse:544.90588
+[650]	train-rmse:497.59950	validation-rmse:543.70667
+[700]	train-rmse:494.27429	validation-rmse:542.58843
+[750]	train-rmse:490.91597	validation-rmse:542.35614
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:47] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[800]	train-rmse:487.48280	validation-rmse:541.90965
+[850]	train-rmse:484.19140	validation-rmse:541.06851
+[900]	train-rmse:481.45221	validation-rmse:540.63321
+[950]	train-rmse:479.10212	validation-rmse:540.90339
+[999]	train-rmse:476.18770	validation-rmse:540.58724
+[0]	train-rmse:2950.78818	validation-rmse:2941.01661
+[50]	train-rmse:601.03057	validation-rmse:616.19557
+[100]	train-rmse:552.79097	validation-rmse:580.59502
+[150]	train-rmse:527.88576	validation-rmse:564.58630
+[200]	train-rmse:504.96545	validation-rmse:553.42332
+[250]	train-rmse:494.68867	validation-rmse:552.03557
+[300]	train-rmse:484.49268	validation-rmse:549.73463
+[350]	train-rmse:475.90279	validation-rmse:549.86683
+[400]	train-rmse:468.48457	validation-rmse:551.14218
+[450]	train-rmse:461.53352	validation-rmse:550.87309
+[500]	train-rmse:456.17853	validation-rmse:549.81362
+[550]	train-rmse:449.75024	validation-rmse:549.34021
+[600]	train-rmse:444.70635	validation-rmse:550.01127
+[650]	train-rmse:439.68594	validation-rmse:549.91988
+[700]	train-rmse:435.60995	validation-rmse:549.69711
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:49] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[750]	train-rmse:431.87549	validation-rmse:550.46816
+[800]	train-rmse:428.14133	validation-rmse:551.17892
+[850]	train-rmse:424.61693	validation-rmse:550.81673
+[900]	train-rmse:421.21969	validation-rmse:551.14364
+[950]	train-rmse:417.58581	validation-rmse:551.79161
+[999]	train-rmse:415.14529	validation-rmse:552.30189
+[0]	train-rmse:2950.85740	validation-rmse:2941.08693
+[50]	train-rmse:591.19910	validation-rmse:605.93751
+[100]	train-rmse:545.25271	validation-rmse:573.47613
+[150]	train-rmse:518.06979	validation-rmse:557.21601
+[200]	train-rmse:502.10462	validation-rmse:550.62075
+[250]	train-rmse:491.28674	validation-rmse:550.79391
+[300]	train-rmse:480.54012	validation-rmse:547.71010
+[350]	train-rmse:472.17944	validation-rmse:548.43773
+[400]	train-rmse:466.15919	validation-rmse:546.32366
+[450]	train-rmse:459.55524	validation-rmse:547.49020
+[500]	train-rmse:453.19161	validation-rmse:547.06079
+[550]	train-rmse:446.72739	validation-rmse:546.84197
+[600]	train-rmse:441.48593	validation-rmse:546.75976
+[650]	train-rmse:437.28625	validation-rmse:547.59326
+[700]	train-rmse:433.48261	validation-rmse:548.07410
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:51] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[750]	train-rmse:429.43814	validation-rmse:548.55802
+[800]	train-rmse:425.86673	validation-rmse:549.21794
+[850]	train-rmse:422.66352	validation-rmse:549.92980
+[900]	train-rmse:419.49058	validation-rmse:549.62978
+[950]	train-rmse:416.42460	validation-rmse:549.87198
+[999]	train-rmse:413.75949	validation-rmse:549.80374
+[0]	train-rmse:2950.92645	validation-rmse:2941.15708
+[50]	train-rmse:595.61290	validation-rmse:605.14429
+[100]	train-rmse:547.33684	validation-rmse:571.08346
+[150]	train-rmse:520.67743	validation-rmse:556.92331
+[200]	train-rmse:504.99042	validation-rmse:552.51906
+[250]	train-rmse:492.83876	validation-rmse:548.76627
+[300]	train-rmse:484.21190	validation-rmse:549.52033
+[350]	train-rmse:473.89660	validation-rmse:547.01333
+[400]	train-rmse:465.48003	validation-rmse:547.58786
+[450]	train-rmse:458.72928	validation-rmse:546.57026
+[500]	train-rmse:454.60472	validation-rmse:547.45705
+[550]	train-rmse:447.47098	validation-rmse:547.85939
+[600]	train-rmse:442.92213	validation-rmse:549.20818
+[650]	train-rmse:438.75606	validation-rmse:547.33717
+[700]	train-rmse:434.29457	validation-rmse:548.45593
+[750]	train-rmse:430.48645	validation-rmse:547.33311
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:53] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[800]	train-rmse:426.18147	validation-rmse:546.68168
+[850]	train-rmse:422.59551	validation-rmse:547.54007
+[900]	train-rmse:419.30324	validation-rmse:548.52523
+[950]	train-rmse:415.99509	validation-rmse:548.50489
+[999]	train-rmse:412.65766	validation-rmse:549.66152
+[0]	train-rmse:2304.98063	validation-rmse:2291.40425
+[50]	train-rmse:578.02157	validation-rmse:601.33181
+[100]	train-rmse:525.03318	validation-rmse:564.80485
+[150]	train-rmse:503.48487	validation-rmse:558.63899
+[200]	train-rmse:486.90419	validation-rmse:559.57939
+[250]	train-rmse:474.55254	validation-rmse:558.97631
+[300]	train-rmse:463.32802	validation-rmse:557.27211
+[350]	train-rmse:454.07432	validation-rmse:555.85011
+[400]	train-rmse:445.43640	validation-rmse:556.18187
+[450]	train-rmse:438.54413	validation-rmse:555.39291
+[500]	train-rmse:432.69254	validation-rmse:557.38664
+[550]	train-rmse:426.75829	validation-rmse:557.14839
+[600]	train-rmse:420.59020	validation-rmse:557.99537
+[650]	train-rmse:414.57724	validation-rmse:559.67644
+[700]	train-rmse:409.42095	validation-rmse:562.38739
+[750]	train-rmse:404.07704	validation-rmse:563.15381
+[800]	train-rmse:399.71298	validation-rmse:565.03317
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:55] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[850]	train-rmse:395.74167	validation-rmse:564.50208
+[900]	train-rmse:391.66859	validation-rmse:564.47619
+[950]	train-rmse:387.87067	validation-rmse:566.19280
+[999]	train-rmse:384.50974	validation-rmse:567.61106
+[0]	train-rmse:2305.08593	validation-rmse:2291.51092
+[50]	train-rmse:581.56860	validation-rmse:605.20164
+[100]	train-rmse:530.28003	validation-rmse:569.98208
+[150]	train-rmse:504.56494	validation-rmse:558.29241
+[200]	train-rmse:487.23872	validation-rmse:553.85275
+[250]	train-rmse:475.49019	validation-rmse:551.64667
+[300]	train-rmse:463.25685	validation-rmse:553.27894
+[350]	train-rmse:453.89935	validation-rmse:555.46117
+[400]	train-rmse:445.53393	validation-rmse:556.38844
+[450]	train-rmse:438.47690	validation-rmse:556.36680
+[500]	train-rmse:431.61629	validation-rmse:557.71104
+[550]	train-rmse:426.15995	validation-rmse:557.23887
+[600]	train-rmse:420.16562	validation-rmse:558.93324
+[650]	train-rmse:415.29545	validation-rmse:560.20798
+[700]	train-rmse:410.64270	validation-rmse:560.96916
+[750]	train-rmse:406.21940	validation-rmse:562.65326
+[800]	train-rmse:402.65589	validation-rmse:564.11973
+[850]	train-rmse:398.85458	validation-rmse:563.45494
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:57] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[900]	train-rmse:394.71487	validation-rmse:562.82353
+[950]	train-rmse:390.15993	validation-rmse:563.96544
+[999]	train-rmse:386.60139	validation-rmse:566.04546
+[0]	train-rmse:2305.19121	validation-rmse:2291.61758
+[50]	train-rmse:572.55060	validation-rmse:596.95572
+[100]	train-rmse:520.48971	validation-rmse:565.54095
+[150]	train-rmse:501.37625	validation-rmse:562.26853
+[200]	train-rmse:485.35477	validation-rmse:557.64990
+[250]	train-rmse:472.66039	validation-rmse:553.66768
+[300]	train-rmse:462.03586	validation-rmse:551.41223
+[350]	train-rmse:452.67268	validation-rmse:552.57238
+[400]	train-rmse:444.09674	validation-rmse:554.30611
+[450]	train-rmse:437.56380	validation-rmse:556.34990
+[500]	train-rmse:429.94396	validation-rmse:557.27933
+[550]	train-rmse:423.56596	validation-rmse:558.02656
+[600]	train-rmse:418.22308	validation-rmse:559.47944
+[650]	train-rmse:413.57225	validation-rmse:559.65531
+[700]	train-rmse:409.15616	validation-rmse:559.86023
+[750]	train-rmse:404.51514	validation-rmse:561.25433
+[800]	train-rmse:400.58419	validation-rmse:562.39793
+[850]	train-rmse:396.54540	validation-rmse:562.51846
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:25:59] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[900]	train-rmse:392.55427	validation-rmse:563.59473
+[950]	train-rmse:389.09935	validation-rmse:565.22084
+[999]	train-rmse:385.86944	validation-rmse:565.62243
+[0]	train-rmse:3617.04711	validation-rmse:3613.98263
+[50]	train-rmse:530.27546	validation-rmse:557.53129
+[100]	train-rmse:484.04065	validation-rmse:535.93627
+[150]	train-rmse:464.17022	validation-rmse:532.63068
+[200]	train-rmse:447.45788	validation-rmse:532.18720
+[250]	train-rmse:434.60574	validation-rmse:532.95783
+[300]	train-rmse:421.35878	validation-rmse:532.77151
+[350]	train-rmse:411.97557	validation-rmse:532.36299
+[400]	train-rmse:403.46520	validation-rmse:532.84272
+[450]	train-rmse:395.53309	validation-rmse:532.93802
+[500]	train-rmse:387.20913	validation-rmse:534.38132
+[550]	train-rmse:378.91161	validation-rmse:536.19083
+[600]	train-rmse:372.63999	validation-rmse:536.85674
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:02] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[650]	train-rmse:366.03035	validation-rmse:537.69325
+[700]	train-rmse:360.06902	validation-rmse:537.76677
+[750]	train-rmse:354.28442	validation-rmse:538.40966
+[800]	train-rmse:346.55555	validation-rmse:539.17121
+[850]	train-rmse:341.30135	validation-rmse:539.87007
+[900]	train-rmse:336.59773	validation-rmse:540.52025
+[950]	train-rmse:331.67122	validation-rmse:540.88264
+[999]	train-rmse:326.40040	validation-rmse:541.47063
+[0]	train-rmse:3617.11715	validation-rmse:3614.05582
+[50]	train-rmse:531.52764	validation-rmse:559.67064
+[100]	train-rmse:487.70953	validation-rmse:538.09029
+[150]	train-rmse:466.48571	validation-rmse:533.80450
+[200]	train-rmse:451.37896	validation-rmse:532.48712
+[250]	train-rmse:436.95291	validation-rmse:531.95615
+[300]	train-rmse:424.45692	validation-rmse:532.24718
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:05] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[350]	train-rmse:414.80574	validation-rmse:533.16689
+[400]	train-rmse:402.95615	validation-rmse:534.89367
+[450]	train-rmse:393.55929	validation-rmse:535.65880
+[500]	train-rmse:386.08731	validation-rmse:537.27893
+[550]	train-rmse:378.09189	validation-rmse:537.98521
+[600]	train-rmse:371.71335	validation-rmse:538.52922
+[650]	train-rmse:365.21933	validation-rmse:539.38517
+[700]	train-rmse:359.79015	validation-rmse:539.87130
+[750]	train-rmse:353.69612	validation-rmse:540.60716
+[800]	train-rmse:346.55176	validation-rmse:541.61780
+[850]	train-rmse:340.20340	validation-rmse:542.45323
+[900]	train-rmse:334.89793	validation-rmse:543.12618
+[950]	train-rmse:329.76464	validation-rmse:544.50047
+[999]	train-rmse:324.73680	validation-rmse:545.08870
+[0]	train-rmse:3617.18709	validation-rmse:3614.12889
+[50]	train-rmse:532.15656	validation-rmse:558.49124
+[100]	train-rmse:487.04241	validation-rmse:538.53469
+[150]	train-rmse:466.65583	validation-rmse:534.58947
+[200]	train-rmse:452.86243	validation-rmse:532.88310
+[250]	train-rmse:440.40940	validation-rmse:534.23328
+[300]	train-rmse:428.66528	validation-rmse:533.62032
+[350]	train-rmse:417.93115	validation-rmse:533.73986
+[400]	train-rmse:408.11314	validation-rmse:533.99908
+[450]	train-rmse:399.14762	validation-rmse:534.90328
+[500]	train-rmse:391.07941	validation-rmse:535.11864
+[550]	train-rmse:382.86401	validation-rmse:535.76522
+[600]	train-rmse:375.48761	validation-rmse:536.63820
+[650]	train-rmse:369.60879	validation-rmse:537.89096
+[700]	train-rmse:362.76667	validation-rmse:538.56161
+[750]	train-rmse:356.79013	validation-rmse:539.25191
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:08] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[800]	train-rmse:351.06878	validation-rmse:540.02476
+[850]	train-rmse:345.35085	validation-rmse:541.00476
+[900]	train-rmse:340.41723	validation-rmse:541.67202
+[950]	train-rmse:335.23063	validation-rmse:542.19652
+[999]	train-rmse:330.29617	validation-rmse:542.79965
+[0]	train-rmse:2881.89601	validation-rmse:2878.05874
+[50]	train-rmse:474.46283	validation-rmse:554.77136
+[100]	train-rmse:428.23428	validation-rmse:549.37303
+[150]	train-rmse:397.99529	validation-rmse:546.75487
+[200]	train-rmse:371.41936	validation-rmse:552.96535
+[250]	train-rmse:350.72040	validation-rmse:552.34029
+[300]	train-rmse:331.87550	validation-rmse:556.13253
+[350]	train-rmse:316.42371	validation-rmse:558.25442
+[400]	train-rmse:305.15066	validation-rmse:560.78536
+[450]	train-rmse:292.09952	validation-rmse:562.38803
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:10] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[500]	train-rmse:281.44932	validation-rmse:565.11669
+[550]	train-rmse:272.36956	validation-rmse:567.13416
+[600]	train-rmse:263.54259	validation-rmse:567.86201
+[650]	train-rmse:254.52501	validation-rmse:568.93219
+[700]	train-rmse:246.76874	validation-rmse:570.47948
+[750]	train-rmse:238.90738	validation-rmse:572.18654
+[800]	train-rmse:231.95685	validation-rmse:573.33940
+[850]	train-rmse:225.98706	validation-rmse:574.52909
+[900]	train-rmse:221.05347	validation-rmse:576.33833
+[950]	train-rmse:216.72252	validation-rmse:576.78163
+[999]	train-rmse:211.26187	validation-rmse:578.35401
+[0]	train-rmse:2882.10125	validation-rmse:2878.27468
+[50]	train-rmse:476.16887	validation-rmse:549.89365
+[100]	train-rmse:430.60154	validation-rmse:546.40006
+[150]	train-rmse:398.19297	validation-rmse:547.21670
+[200]	train-rmse:372.03661	validation-rmse:546.38048
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:13] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[250]	train-rmse:353.07647	validation-rmse:550.24921
+[300]	train-rmse:336.11069	validation-rmse:552.68676
+[350]	train-rmse:318.15321	validation-rmse:554.04508
+[400]	train-rmse:304.32584	validation-rmse:555.11878
+[450]	train-rmse:292.79768	validation-rmse:556.66394
+[500]	train-rmse:282.45023	validation-rmse:560.11766
+[550]	train-rmse:272.25111	validation-rmse:562.13721
+[600]	train-rmse:263.43269	validation-rmse:563.80448
+[650]	train-rmse:255.03691	validation-rmse:564.98087
+[700]	train-rmse:247.22984	validation-rmse:565.57360
+[750]	train-rmse:240.04940	validation-rmse:566.43690
+[800]	train-rmse:233.81416	validation-rmse:567.17921
+[850]	train-rmse:226.49313	validation-rmse:569.38460
+[900]	train-rmse:220.72924	validation-rmse:570.30748
+[950]	train-rmse:215.09452	validation-rmse:571.96504
+[999]	train-rmse:209.96515	validation-rmse:573.44778
+[0]	train-rmse:2882.30625	validation-rmse:2878.49030
+[50]	train-rmse:477.05727	validation-rmse:545.14250
+[100]	train-rmse:434.68359	validation-rmse:543.82767
+[150]	train-rmse:403.07074	validation-rmse:545.86415
+[200]	train-rmse:377.22132	validation-rmse:545.46711
+[250]	train-rmse:354.70402	validation-rmse:549.21008
+[300]	train-rmse:336.46083	validation-rmse:552.04989
+[350]	train-rmse:321.89239	validation-rmse:554.24278
+[400]	train-rmse:310.32884	validation-rmse:558.00429
+[450]	train-rmse:297.83907	validation-rmse:559.43084
+[500]	train-rmse:287.38496	validation-rmse:562.01351
+[550]	train-rmse:278.55418	validation-rmse:564.73011
+[600]	train-rmse:270.03206	validation-rmse:566.53732
+[650]	train-rmse:260.70809	validation-rmse:568.17009
+[700]	train-rmse:254.64000	validation-rmse:568.82940
+[750]	train-rmse:245.57229	validation-rmse:570.96298
+[800]	train-rmse:238.69207	validation-rmse:571.29384
+[850]	train-rmse:232.18970	validation-rmse:572.19736
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:15] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[900]	train-rmse:225.55776	validation-rmse:573.34201
+[950]	train-rmse:219.67826	validation-rmse:575.00407
+[999]	train-rmse:214.99013	validation-rmse:576.24193
+[0]	train-rmse:2172.99454	validation-rmse:2168.15562
+[50]	train-rmse:455.91993	validation-rmse:561.40800
+[100]	train-rmse:397.06826	validation-rmse:559.89588
+[150]	train-rmse:362.65177	validation-rmse:561.20696
+[200]	train-rmse:331.53441	validation-rmse:567.32431
+[250]	train-rmse:309.24676	validation-rmse:569.24496
+[300]	train-rmse:291.01124	validation-rmse:573.02402
+[350]	train-rmse:272.00014	validation-rmse:575.99781
+[400]	train-rmse:259.27989	validation-rmse:576.53901
+[450]	train-rmse:247.05013	validation-rmse:578.10960
+[500]	train-rmse:236.54299	validation-rmse:582.01958
+[550]	train-rmse:226.20092	validation-rmse:583.50076
+[600]	train-rmse:216.67772	validation-rmse:585.07146
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:18] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[650]	train-rmse:208.16890	validation-rmse:587.87127
+[700]	train-rmse:199.50856	validation-rmse:590.17779
+[750]	train-rmse:192.35243	validation-rmse:591.11974
+[800]	train-rmse:185.03586	validation-rmse:592.44740
+[850]	train-rmse:179.43898	validation-rmse:594.32217
+[900]	train-rmse:173.90255	validation-rmse:595.99206
+[950]	train-rmse:167.75225	validation-rmse:597.31565
+[999]	train-rmse:162.63774	validation-rmse:597.67299
+[0]	train-rmse:2173.31881	validation-rmse:2168.50097
+[50]	train-rmse:459.79136	validation-rmse:563.62829
+[100]	train-rmse:404.91521	validation-rmse:567.19677
+[150]	train-rmse:365.87025	validation-rmse:572.40175
+[200]	train-rmse:336.82737	validation-rmse:574.33984
+[250]	train-rmse:313.76145	validation-rmse:579.16661
+[300]	train-rmse:294.56876	validation-rmse:583.39459
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:21] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[350]	train-rmse:279.72570	validation-rmse:585.28280
+[400]	train-rmse:264.03569	validation-rmse:589.29599
+[450]	train-rmse:252.61933	validation-rmse:591.56070
+[500]	train-rmse:240.44060	validation-rmse:593.53913
+[550]	train-rmse:229.33698	validation-rmse:595.39404
+[600]	train-rmse:220.00164	validation-rmse:598.29895
+[650]	train-rmse:211.02069	validation-rmse:599.92257
+[700]	train-rmse:202.39991	validation-rmse:601.44116
+[750]	train-rmse:194.53239	validation-rmse:602.74584
+[800]	train-rmse:187.94882	validation-rmse:604.31878
+[850]	train-rmse:182.50442	validation-rmse:605.52455
+[900]	train-rmse:176.17052	validation-rmse:606.11495
+[950]	train-rmse:170.90744	validation-rmse:606.40018
+[999]	train-rmse:165.17635	validation-rmse:607.11973
+[0]	train-rmse:2173.64281	validation-rmse:2168.84587
+[50]	train-rmse:458.49844	validation-rmse:567.17425
+[100]	train-rmse:400.16502	validation-rmse:565.52531
+[150]	train-rmse:363.30699	validation-rmse:568.86669
+[200]	train-rmse:339.31885	validation-rmse:572.79391
+[250]	train-rmse:317.29347	validation-rmse:577.44973
+[300]	train-rmse:297.02709	validation-rmse:579.34086
+[350]	train-rmse:281.51256	validation-rmse:580.21988
+[400]	train-rmse:266.84189	validation-rmse:583.34950
+[450]	train-rmse:253.84303	validation-rmse:587.27223
+[500]	train-rmse:241.84512	validation-rmse:588.94150
+[550]	train-rmse:231.89274	validation-rmse:591.18861
+[600]	train-rmse:222.08724	validation-rmse:592.90172
+[650]	train-rmse:213.47604	validation-rmse:596.23579
+[700]	train-rmse:205.20597	validation-rmse:597.54175
+[750]	train-rmse:198.16187	validation-rmse:599.74413
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:24] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[800]	train-rmse:190.28799	validation-rmse:600.87192
+[850]	train-rmse:184.01567	validation-rmse:602.33062
+[900]	train-rmse:177.95702	validation-rmse:603.39416
+[950]	train-rmse:172.34394	validation-rmse:604.44816
+[999]	train-rmse:167.99366	validation-rmse:605.51659
+[0]	train-rmse:3606.21787	validation-rmse:3602.82723
+[50]	train-rmse:459.77779	validation-rmse:532.37406
+[100]	train-rmse:402.59209	validation-rmse:527.85321
+[150]	train-rmse:370.79946	validation-rmse:530.21776
+[200]	train-rmse:346.39191	validation-rmse:535.19004
+[250]	train-rmse:325.00190	validation-rmse:536.70304
+[300]	train-rmse:304.81801	validation-rmse:540.39263
+[350]	train-rmse:289.84604	validation-rmse:542.22978
+[400]	train-rmse:277.16884	validation-rmse:543.54885
+[450]	train-rmse:263.01601	validation-rmse:545.29861
+[500]	train-rmse:248.46882	validation-rmse:546.92687
+[550]	train-rmse:238.41477	validation-rmse:547.64395
+[600]	train-rmse:224.96883	validation-rmse:548.49715
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:28] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[650]	train-rmse:215.33539	validation-rmse:550.03118
+[700]	train-rmse:207.51413	validation-rmse:550.71606
+[750]	train-rmse:198.73768	validation-rmse:551.82631
+[800]	train-rmse:190.47024	validation-rmse:552.12819
+[850]	train-rmse:183.51369	validation-rmse:552.77301
+[900]	train-rmse:176.49524	validation-rmse:553.15853
+[950]	train-rmse:170.45418	validation-rmse:553.60859
+[999]	train-rmse:164.42604	validation-rmse:554.68722
+[0]	train-rmse:3606.56775	validation-rmse:3603.25710
+[50]	train-rmse:461.94688	validation-rmse:534.10969
+[100]	train-rmse:406.64606	validation-rmse:530.53676
+[150]	train-rmse:376.53324	validation-rmse:533.46657
+[200]	train-rmse:350.18013	validation-rmse:534.99165
+[250]	train-rmse:326.00807	validation-rmse:537.90915
+[300]	train-rmse:308.12889	validation-rmse:540.28506
+[350]	train-rmse:294.52379	validation-rmse:541.59223
+[400]	train-rmse:279.12558	validation-rmse:542.99862
+[450]	train-rmse:267.92209	validation-rmse:544.55494
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:31] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[500]	train-rmse:255.57478	validation-rmse:545.55050
+[550]	train-rmse:244.59317	validation-rmse:547.76895
+[600]	train-rmse:232.37359	validation-rmse:548.59911
+[650]	train-rmse:224.08745	validation-rmse:549.87454
+[700]	train-rmse:214.28214	validation-rmse:550.86794
+[750]	train-rmse:205.46016	validation-rmse:551.24422
+[800]	train-rmse:198.14260	validation-rmse:552.55034
+[850]	train-rmse:190.56708	validation-rmse:552.63563
+[900]	train-rmse:183.23121	validation-rmse:553.58966
+[950]	train-rmse:176.83846	validation-rmse:554.43439
+[999]	train-rmse:171.00499	validation-rmse:554.98793
+[0]	train-rmse:3606.76297	validation-rmse:3603.19917
+[50]	train-rmse:463.57415	validation-rmse:530.77671
+[100]	train-rmse:405.50063	validation-rmse:526.58116
+[150]	train-rmse:374.79666	validation-rmse:527.84009
+[200]	train-rmse:352.15840	validation-rmse:529.57185
+[250]	train-rmse:331.99687	validation-rmse:532.10846
+[300]	train-rmse:314.22591	validation-rmse:534.07436
+[350]	train-rmse:299.46694	validation-rmse:537.56843
+[400]	train-rmse:285.63153	validation-rmse:538.58558
+[450]	train-rmse:272.21374	validation-rmse:540.02797
+[500]	train-rmse:261.37639	validation-rmse:542.20919
+[550]	train-rmse:250.30661	validation-rmse:542.57195
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:35] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[600]	train-rmse:242.04121	validation-rmse:542.55332
+[650]	train-rmse:232.67082	validation-rmse:543.83759
+[700]	train-rmse:222.43713	validation-rmse:544.83808
+[750]	train-rmse:214.40418	validation-rmse:546.24590
+[800]	train-rmse:205.92573	validation-rmse:547.45228
+[850]	train-rmse:197.22756	validation-rmse:548.14190
+[900]	train-rmse:188.93284	validation-rmse:548.90899
+[950]	train-rmse:182.55725	validation-rmse:549.16901
+[999]	train-rmse:176.31460	validation-rmse:549.83812
+[0]	train-rmse:2845.17445	validation-rmse:2840.76978
+[50]	train-rmse:375.60451	validation-rmse:545.38406
+[100]	train-rmse:304.30131	validation-rmse:558.24746
+[150]	train-rmse:261.39235	validation-rmse:564.01503
+[200]	train-rmse:225.60125	validation-rmse:567.77626
+[250]	train-rmse:200.26745	validation-rmse:570.00599
+[300]	train-rmse:176.21095	validation-rmse:573.75638
+[350]	train-rmse:159.02810	validation-rmse:574.71951
+[400]	train-rmse:143.77482	validation-rmse:576.29987
+[450]	train-rmse:130.38555	validation-rmse:578.35104
+[500]	train-rmse:119.52540	validation-rmse:579.35636
+[550]	train-rmse:109.88865	validation-rmse:580.15886
+[600]	train-rmse:101.27183	validation-rmse:580.76693
+[650]	train-rmse:93.78625	validation-rmse:581.79205
+[700]	train-rmse:85.66174	validation-rmse:582.82249
+[750]	train-rmse:79.12275	validation-rmse:583.45882
+[800]	train-rmse:74.00852	validation-rmse:583.75558
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:38] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[850]	train-rmse:69.32147	validation-rmse:583.96905
+[900]	train-rmse:64.83814	validation-rmse:584.62587
+[950]	train-rmse:60.97514	validation-rmse:584.87474
+[999]	train-rmse:57.06271	validation-rmse:585.17513
+[0]	train-rmse:2846.22524	validation-rmse:2841.98896
+[50]	train-rmse:378.87865	validation-rmse:545.71598
+[100]	train-rmse:304.33934	validation-rmse:558.14028
+[150]	train-rmse:261.27961	validation-rmse:561.04028
+[200]	train-rmse:226.23182	validation-rmse:564.09384
+[250]	train-rmse:197.76392	validation-rmse:567.72083
+[300]	train-rmse:177.17461	validation-rmse:569.27358
+[350]	train-rmse:158.91049	validation-rmse:570.84146
+[400]	train-rmse:146.20362	validation-rmse:573.32088
+[450]	train-rmse:133.36798	validation-rmse:575.01678
+[500]	train-rmse:120.51114	validation-rmse:576.10366
+[550]	train-rmse:110.22160	validation-rmse:576.65571
+[600]	train-rmse:101.16805	validation-rmse:577.40461
+[650]	train-rmse:93.69856	validation-rmse:578.07598
+[700]	train-rmse:88.25349	validation-rmse:578.32504
+[750]	train-rmse:82.24485	validation-rmse:578.89982
+[800]	train-rmse:77.34964	validation-rmse:579.52322
+[850]	train-rmse:71.33340	validation-rmse:580.08051
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:42] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[900]	train-rmse:66.69744	validation-rmse:580.14206
+[950]	train-rmse:63.22381	validation-rmse:580.48532
+[999]	train-rmse:59.35452	validation-rmse:580.73317
+[0]	train-rmse:2846.77008	validation-rmse:2841.76170
+[50]	train-rmse:383.79401	validation-rmse:549.68841
+[100]	train-rmse:306.92578	validation-rmse:556.68149
+[150]	train-rmse:262.40800	validation-rmse:561.86051
+[200]	train-rmse:229.69154	validation-rmse:566.99953
+[250]	train-rmse:202.98778	validation-rmse:569.55840
+[300]	train-rmse:179.77487	validation-rmse:571.73822
+[350]	train-rmse:162.27002	validation-rmse:573.18929
+[400]	train-rmse:148.12389	validation-rmse:575.16588
+[450]	train-rmse:135.43763	validation-rmse:576.69118
+[500]	train-rmse:125.61070	validation-rmse:576.99095
+[550]	train-rmse:115.02453	validation-rmse:578.45706
+[600]	train-rmse:106.72008	validation-rmse:579.21690
+[650]	train-rmse:99.57517	validation-rmse:579.95633
+[700]	train-rmse:92.85406	validation-rmse:580.51506
+[750]	train-rmse:86.27440	validation-rmse:581.23467
+[800]	train-rmse:79.95976	validation-rmse:581.67415
+[850]	train-rmse:75.00758	validation-rmse:582.15908
+[900]	train-rmse:69.80815	validation-rmse:582.51269
+[950]	train-rmse:65.65900	validation-rmse:582.88082
+[999]	train-rmse:61.89885	validation-rmse:583.15324
+[0]	train-rmse:2100.47468	validation-rmse:2095.85294
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:45] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[50]	train-rmse:342.88294	validation-rmse:578.16093
+[100]	train-rmse:260.30742	validation-rmse:583.73452
+[150]	train-rmse:207.94494	validation-rmse:591.42169
+[200]	train-rmse:170.90730	validation-rmse:596.56168
+[250]	train-rmse:146.06527	validation-rmse:598.45508
+[300]	train-rmse:125.43952	validation-rmse:601.46505
+[350]	train-rmse:109.10420	validation-rmse:603.05154
+[400]	train-rmse:95.19090	validation-rmse:604.25464
+[450]	train-rmse:83.79421	validation-rmse:605.17922
+[500]	train-rmse:74.55774	validation-rmse:606.07528
+[550]	train-rmse:66.84240	validation-rmse:606.70397
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:49] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[600]	train-rmse:60.94492	validation-rmse:606.98229
+[650]	train-rmse:55.39679	validation-rmse:607.76103
+[700]	train-rmse:49.55241	validation-rmse:607.92627
+[750]	train-rmse:45.19325	validation-rmse:608.37757
+[800]	train-rmse:41.45405	validation-rmse:608.56363
+[850]	train-rmse:37.87751	validation-rmse:608.83949
+[900]	train-rmse:34.66393	validation-rmse:609.23774
+[950]	train-rmse:32.23454	validation-rmse:609.20042
+[999]	train-rmse:30.01891	validation-rmse:609.31313
+[0]	train-rmse:2102.21531	validation-rmse:2097.66639
+[50]	train-rmse:335.03200	validation-rmse:569.98031
+[100]	train-rmse:255.30527	validation-rmse:579.14683
+[150]	train-rmse:205.81167	validation-rmse:586.16048
+[200]	train-rmse:174.00590	validation-rmse:592.79642
+[250]	train-rmse:147.70440	validation-rmse:596.00787
+[300]	train-rmse:128.36899	validation-rmse:597.75277
+[350]	train-rmse:111.18041	validation-rmse:599.30312
+[400]	train-rmse:98.17981	validation-rmse:601.01672
+[450]	train-rmse:87.39079	validation-rmse:602.05569
+[500]	train-rmse:78.03541	validation-rmse:603.13814
+[550]	train-rmse:69.68918	validation-rmse:603.69008
+[600]	train-rmse:63.05907	validation-rmse:604.34795
+[650]	train-rmse:57.02079	validation-rmse:604.92540
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py:160: UserWarning: [18:26:53] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:742:
+Parameters: { "early_stopping_rounds" } are not used.
+  warnings.warn(smsg, UserWarning)
+[700]	train-rmse:51.65612	validation-rmse:605.31237
+[750]	train-rmse:47.18880	validation-rmse:605.56256
+[800]	train-rmse:42.97695	validation-rmse:605.71514
+[850]	train-rmse:39.36227	validation-rmse:605.88907
+[900]	train-rmse:36.24919	validation-rmse:606.10114
+[950]	train-rmse:33.58155	validation-rmse:606.22047
+[999]	train-rmse:31.16459	validation-rmse:606.60822
+[0]	train-rmse:2102.99989	validation-rmse:2097.13764
+[50]	train-rmse:332.22984	validation-rmse:582.99671
+[100]	train-rmse:251.87845	validation-rmse:590.26963
+[150]	train-rmse:208.87415	validation-rmse:597.07129
+[200]	train-rmse:174.82093	validation-rmse:601.80105
+[250]	train-rmse:145.91081	validation-rmse:603.37609
+[300]	train-rmse:127.43782	validation-rmse:606.13623
+[350]	train-rmse:111.16797	validation-rmse:607.43090
+[400]	train-rmse:98.65627	validation-rmse:608.27245
+[450]	train-rmse:87.55182	validation-rmse:609.64250
+[500]	train-rmse:77.26897	validation-rmse:610.51739
+[550]	train-rmse:70.46344	validation-rmse:611.01500
+[600]	train-rmse:64.13855	validation-rmse:611.37549
+[650]	train-rmse:57.84568	validation-rmse:611.60310
+/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+[700]	train-rmse:52.73235	validation-rmse:611.95395
+[750]	train-rmse:48.38430	validation-rmse:612.10509
+[800]	train-rmse:44.53026	validation-rmse:612.21241
+[850]	train-rmse:40.93380	validation-rmse:612.35405
+[900]	train-rmse:37.57545	validation-rmse:612.35687
+[950]	train-rmse:34.65861	validation-rmse:612.58760
+[999]	train-rmse:31.98510	validation-rmse:612.89425

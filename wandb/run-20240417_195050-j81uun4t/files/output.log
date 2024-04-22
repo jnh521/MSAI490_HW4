@@ -1,0 +1,4 @@
+/var/folders/93/4tspbrs900q0m61qlxy3g_9r0000gn/T/ipykernel_54214/1736723096.py:4: UserWarning: wandb_callback will be deprecated in favor of WandbCallback. Please use WandbCallback for more features.
+  callbacks = [wandb_callback()]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.

@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "/var/folders/93/4tspbrs900q0m61qlxy3g_9r0000gn/T/ipykernel_61593/4142006150.py", line 49, in train_model
+    model.fit(X_train, y_train)
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py", line 730, in inner_f
+    return func(**kwargs)
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1055, in fit
+    train_dmatrix, evals = _wrap_evaluation_matrices(
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 521, in _wrap_evaluation_matrices
+    train_dmatrix = create_dmatrix(
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 958, in _create_dmatrix
+    return QuantileDMatrix(
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py", line 730, in inner_f
+    return func(**kwargs)
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py", line 1529, in __init__
+    self._init(
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py", line 1588, in _init
+    it.reraise()
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py", line 576, in reraise
+    raise exc  # pylint: disable=raising-bad-type
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py", line 557, in _handle_exception
+    return fn()
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py", line 641, in <lambda>
+    return self._handle_exception(lambda: self.next(input_data), 0)
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/data.py", line 1280, in next
+    input_data(**self.kwargs)
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py", line 730, in inner_f
+    return func(**kwargs)
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/core.py", line 624, in input_data
+    new, cat_codes, feature_names, feature_types = _proxy_transform(
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/data.py", line 1315, in _proxy_transform
+    arr, feature_names, feature_types = _transform_pandas_df(
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/data.py", line 490, in _transform_pandas_df
+    _invalid_dataframe_dtype(data)
+  File "/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/lib/python3.9/site-packages/xgboost/data.py", line 308, in _invalid_dataframe_dtype
+    raise ValueError(msg)
+ValueError: DataFrame.dtypes for data must be int, float, bool or category. When categorical type is supplied, The experimental DMatrix parameter`enable_categorical` must be set to `True`.  Invalid columns:cut: category, color: category, clarity: category

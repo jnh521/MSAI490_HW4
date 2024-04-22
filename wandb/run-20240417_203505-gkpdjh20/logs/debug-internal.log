@@ -1,0 +1,169 @@
+2024-04-17 20:35:05,669 INFO    StreamThr :64727 [internal.py:wandb_internal():86] W&B internal server running at pid: 64727, started at: 2024-04-17 20:35:05.668476
+2024-04-17 20:35:05,670 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: status
+2024-04-17 20:35:05,676 INFO    WriterThread:64727 [datastore.py:open_for_write():87] open: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/run-gkpdjh20.wandb
+2024-04-17 20:35:05,676 DEBUG   SenderThread:64727 [sender.py:send():379] send: header
+2024-04-17 20:35:05,700 DEBUG   SenderThread:64727 [sender.py:send():379] send: run
+2024-04-17 20:35:05,899 INFO    SenderThread:64727 [dir_watcher.py:__init__():211] watching files in: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files
+2024-04-17 20:35:05,899 INFO    SenderThread:64727 [sender.py:_start_run_threads():1124] run started: gkpdjh20 with start time 1713404105.667907
+2024-04-17 20:35:05,911 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: check_version
+2024-04-17 20:35:05,912 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: check_version
+2024-04-17 20:35:06,038 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: run_start
+2024-04-17 20:35:06,049 DEBUG   HandlerThread:64727 [system_info.py:__init__():26] System info init
+2024-04-17 20:35:06,049 DEBUG   HandlerThread:64727 [system_info.py:__init__():41] System info init done
+2024-04-17 20:35:06,049 INFO    HandlerThread:64727 [system_monitor.py:start():194] Starting system monitor
+2024-04-17 20:35:06,050 INFO    SystemMonitor:64727 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-17 20:35:06,050 INFO    HandlerThread:64727 [system_monitor.py:probe():214] Collecting system info
+2024-04-17 20:35:06,051 INFO    SystemMonitor:64727 [interfaces.py:start():190] Started cpu monitoring
+2024-04-17 20:35:06,053 INFO    SystemMonitor:64727 [interfaces.py:start():190] Started disk monitoring
+2024-04-17 20:35:06,054 DEBUG   HandlerThread:64727 [system_info.py:probe():150] Probing system
+2024-04-17 20:35:06,054 INFO    SystemMonitor:64727 [interfaces.py:start():190] Started gpuapple monitoring
+2024-04-17 20:35:06,060 INFO    SystemMonitor:64727 [interfaces.py:start():190] Started memory monitoring
+2024-04-17 20:35:06,061 INFO    SystemMonitor:64727 [interfaces.py:start():190] Started network monitoring
+2024-04-17 20:35:06,068 DEBUG   HandlerThread:64727 [system_info.py:_probe_git():135] Probing git
+2024-04-17 20:35:06,101 DEBUG   HandlerThread:64727 [system_info.py:_probe_git():143] Probing git done
+2024-04-17 20:35:06,101 DEBUG   HandlerThread:64727 [system_info.py:probe():198] Probing system done
+2024-04-17 20:35:06,101 DEBUG   HandlerThread:64727 [system_monitor.py:probe():223] {'os': 'macOS-14.4.1-arm64-arm-64bit', 'python': '3.9.6', 'heartbeatAt': '2024-04-18T01:35:06.054225', 'startedAt': '2024-04-18T01:35:05.660178', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/jnh521/MSAI490_HW4.git', 'commit': '55431bbdb4b7e264d7d7ccf5b657f29cfd89b491'}, 'email': '139911919+jnh521@users.noreply.github.com', 'root': '/Users/johnny/Documents/GitHub/MSAI490_HW4', 'host': 'Johnnys-Macbook-Pro.local', 'username': 'johnny', 'executable': '/Users/johnny/Documents/GitHub/MSAI490_HW4/.venv/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'cpu_freq': {'current': 3504, 'min': 702, 'max': 3504}, 'cpu_freq_per_core': [{'current': 3504, 'min': 702, 'max': 3504}], 'disk': {'/': {'total': 460.4317207336426, 'used': 9.541545867919922}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-04-17 20:35:06,101 INFO    HandlerThread:64727 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-17 20:35:06,101 INFO    HandlerThread:64727 [system_monitor.py:probe():227] Publishing system info
+2024-04-17 20:35:06,102 INFO    HandlerThread:64727 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-17 20:35:06,105 DEBUG   SenderThread:64727 [sender.py:send():379] send: files
+2024-04-17 20:35:06,105 INFO    SenderThread:64727 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-17 20:35:06,183 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-17 20:35:06,183 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-17 20:35:06,183 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 20:35:06,184 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: python_packages
+2024-04-17 20:35:06,188 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: stop_status
+2024-04-17 20:35:06,283 DEBUG   SenderThread:64727 [sender.py:send():379] send: telemetry
+2024-04-17 20:35:06,407 INFO    wandb-upload_0:64727 [upload_job.py:push():131] Uploaded file /var/folders/93/4tspbrs900q0m61qlxy3g_9r0000gn/T/tmp2466a7p0wandb/wk9mqg6c-wandb-metadata.json
+2024-04-17 20:35:06,901 INFO    Thread-12 :64727 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/requirements.txt
+2024-04-17 20:35:06,901 INFO    Thread-12 :64727 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/wandb-metadata.json
+2024-04-17 20:35:07,094 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-17 20:35:07,095 DEBUG   SenderThread:64727 [sender.py:send():379] send: history
+2024-04-17 20:35:07,095 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: summary_record
+2024-04-17 20:35:07,096 INFO    SenderThread:64727 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-17 20:35:07,096 DEBUG   SenderThread:64727 [sender.py:send():379] send: telemetry
+2024-04-17 20:35:07,096 DEBUG   SenderThread:64727 [sender.py:send():379] send: exit
+2024-04-17 20:35:07,096 INFO    SenderThread:64727 [sender.py:send_exit():586] handling exit code: 0
+2024-04-17 20:35:07,096 INFO    SenderThread:64727 [sender.py:send_exit():588] handling runtime: 1
+2024-04-17 20:35:07,096 INFO    SenderThread:64727 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-17 20:35:07,096 INFO    SenderThread:64727 [sender.py:send_exit():594] send defer
+2024-04-17 20:35:07,096 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,096 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-17 20:35:07,096 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,096 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-17 20:35:07,097 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 1
+2024-04-17 20:35:07,097 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,097 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-17 20:35:07,097 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,097 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-17 20:35:07,097 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 2
+2024-04-17 20:35:07,097 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,097 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-17 20:35:07,097 INFO    HandlerThread:64727 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-17 20:35:07,097 INFO    HandlerThread:64727 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-17 20:35:07,097 DEBUG   SystemMonitor:64727 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-17 20:35:07,097 INFO    HandlerThread:64727 [interfaces.py:finish():202] Joined disk monitor
+2024-04-17 20:35:07,097 DEBUG   SystemMonitor:64727 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-17 20:35:07,098 DEBUG   SystemMonitor:64727 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-17 20:35:07,309 INFO    HandlerThread:64727 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-04-17 20:35:07,309 INFO    HandlerThread:64727 [interfaces.py:finish():202] Joined memory monitor
+2024-04-17 20:35:07,309 INFO    HandlerThread:64727 [interfaces.py:finish():202] Joined network monitor
+2024-04-17 20:35:07,310 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,310 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-17 20:35:07,310 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 3
+2024-04-17 20:35:07,310 DEBUG   SenderThread:64727 [sender.py:send():379] send: telemetry
+2024-04-17 20:35:07,310 DEBUG   SenderThread:64727 [sender.py:send():379] send: stats
+2024-04-17 20:35:07,310 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,310 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-17 20:35:07,310 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,310 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-17 20:35:07,310 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 4
+2024-04-17 20:35:07,310 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,310 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-17 20:35:07,310 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,311 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-17 20:35:07,311 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 5
+2024-04-17 20:35:07,311 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,311 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-17 20:35:07,311 DEBUG   SenderThread:64727 [sender.py:send():379] send: summary
+2024-04-17 20:35:07,311 INFO    SenderThread:64727 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-17 20:35:07,311 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,311 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-17 20:35:07,311 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 6
+2024-04-17 20:35:07,312 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,312 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-17 20:35:07,312 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,312 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-17 20:35:07,314 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: status_report
+2024-04-17 20:35:07,368 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 7
+2024-04-17 20:35:07,368 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,368 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-17 20:35:07,368 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,368 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-17 20:35:07,368 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 8
+2024-04-17 20:35:07,368 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,368 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-17 20:35:07,369 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,369 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-17 20:35:07,369 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 9
+2024-04-17 20:35:07,369 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,369 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-17 20:35:07,369 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,369 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-17 20:35:07,369 INFO    SenderThread:64727 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-17 20:35:07,905 INFO    SenderThread:64727 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/config.yaml
+2024-04-17 20:35:07,905 INFO    SenderThread:64727 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/wandb-summary.json
+2024-04-17 20:35:07,906 INFO    SenderThread:64727 [dir_watcher.py:finish():388] scan: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files
+2024-04-17 20:35:07,907 INFO    SenderThread:64727 [dir_watcher.py:finish():402] scan save: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/requirements.txt requirements.txt
+2024-04-17 20:35:07,907 INFO    SenderThread:64727 [dir_watcher.py:finish():402] scan save: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/config.yaml config.yaml
+2024-04-17 20:35:07,907 INFO    SenderThread:64727 [dir_watcher.py:finish():402] scan save: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/wandb-summary.json wandb-summary.json
+2024-04-17 20:35:07,907 INFO    SenderThread:64727 [dir_watcher.py:finish():402] scan save: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/wandb-metadata.json wandb-metadata.json
+2024-04-17 20:35:07,907 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 10
+2024-04-17 20:35:07,908 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:07,908 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-17 20:35:07,913 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:07,914 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-17 20:35:07,919 INFO    SenderThread:64727 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-17 20:35:08,100 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-17 20:35:08,101 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: poll_exit
+2024-04-17 20:35:08,118 INFO    wandb-upload_1:64727 [upload_job.py:push():131] Uploaded file /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/requirements.txt
+2024-04-17 20:35:08,238 INFO    wandb-upload_0:64727 [upload_job.py:push():131] Uploaded file /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/wandb-summary.json
+2024-04-17 20:35:08,268 INFO    wandb-upload_2:64727 [upload_job.py:push():131] Uploaded file /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/files/config.yaml
+2024-04-17 20:35:08,474 INFO    Thread-11 :64727 [sender.py:transition_state():614] send defer: 11
+2024-04-17 20:35:08,475 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:08,476 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-17 20:35:08,476 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:08,476 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-17 20:35:08,477 INFO    SenderThread:64727 [file_pusher.py:join():178] waiting for file pusher
+2024-04-17 20:35:08,477 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 12
+2024-04-17 20:35:08,478 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:08,478 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-17 20:35:08,478 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:08,478 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-17 20:35:08,478 INFO    SenderThread:64727 [file_stream.py:finish():614] file stream finish called
+2024-04-17 20:35:08,535 INFO    SenderThread:64727 [file_stream.py:finish():618] file stream finish is done
+2024-04-17 20:35:08,535 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 13
+2024-04-17 20:35:08,535 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:08,535 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-17 20:35:08,536 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:08,536 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-17 20:35:08,536 INFO    SenderThread:64727 [sender.py:transition_state():614] send defer: 14
+2024-04-17 20:35:08,536 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: defer
+2024-04-17 20:35:08,537 INFO    HandlerThread:64727 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-17 20:35:08,536 DEBUG   SenderThread:64727 [sender.py:send():379] send: final
+2024-04-17 20:35:08,537 DEBUG   SenderThread:64727 [sender.py:send():379] send: footer
+2024-04-17 20:35:08,537 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: defer
+2024-04-17 20:35:08,537 INFO    SenderThread:64727 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-17 20:35:08,541 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-17 20:35:08,543 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: poll_exit
+2024-04-17 20:35:08,545 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-17 20:35:08,547 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: server_info
+2024-04-17 20:35:08,547 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-17 20:35:08,548 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-17 20:35:08,548 DEBUG   SenderThread:64727 [sender.py:send_request():406] send_request: server_info
+2024-04-17 20:35:08,594 DEBUG   HandlerThread:64727 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-17 20:35:08,595 INFO    HandlerThread:64727 [handler.py:finish():866] shutting down handler
+2024-04-17 20:35:09,548 INFO    WriterThread:64727 [datastore.py:close():296] close: /Users/johnny/Documents/GitHub/MSAI490_HW4/wandb/run-20240417_203505-gkpdjh20/run-gkpdjh20.wandb
+2024-04-17 20:35:09,593 INFO    SenderThread:64727 [sender.py:finish():1546] shutting down sender
+2024-04-17 20:35:09,594 INFO    SenderThread:64727 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-17 20:35:09,594 INFO    SenderThread:64727 [file_pusher.py:join():178] waiting for file pusher

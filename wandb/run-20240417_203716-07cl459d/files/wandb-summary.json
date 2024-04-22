@@ -1,0 +1,1 @@
+{"learning_rate": 0.1, "max_depth": 3, "n_estimators": 100, "rmse": 611.5665383691122, "_timestamp": 1713404237.440297, "_runtime": 0.5783259868621826, "_step": 0, "_wandb": {"runtime": 0}}
